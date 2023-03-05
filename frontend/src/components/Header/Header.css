@@ -1,1 +1,69 @@
-.header__settings {}
+.header__container {
+    width: 100%;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px
+}
+
+
+.header__searchbar {
+    position: relative;
+    width: 492px;
+}
+
+.searchbar__input {
+    background-color: #FFFF;
+    border-radius: 70px;
+    border: 1px solid rgba(195, 212, 233, 0.4);
+    color: #596780;
+    display: flex;
+    align-items: center;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    height: 45px;
+    line-height: 45px;
+    letter-spacing: -0.02em;
+    margin-left: 20px;
+    outline: none;
+    padding-left: 50px;
+    text-align: justify;
+    width: 100%;
+    z-index: 1;
+}
+
+.searchbar__input+.searchbar__label,
+.searchbar__input+.searchbar__label {
+    transform: translate(-20px, -50%);
+}
+
+.searchbar__label {
+    left: 50px;
+    opacity: 1;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.1s ease-out;
+    z-index: 2;
+}
+
+.header__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 44px;
+    height: 44px;
+    background-color: #FFFF;
+    border: 1px solid rgba(195, 212, 233, 0.4);
+    border-radius: 90px;
+}
+
+
+.header__circles {
+    display: flex;
+    gap: 20px;
+}
