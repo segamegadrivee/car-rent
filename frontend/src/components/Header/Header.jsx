@@ -1,4 +1,4 @@
-import styles from './Header.css';
+import './Header.css';
 import logo from '../../assets/img/Logo.svg'
 import search from '../../assets/img/search-normal.svg'
 import heart from '../../assets/img/heart.svg'
