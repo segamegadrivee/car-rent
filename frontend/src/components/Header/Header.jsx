@@ -13,15 +13,15 @@ import avatar from '../../assets/img/avatar.svg'
 const Header = () => {
     return (
         <header>
-            <div className="header__container container">
-                <>
-                    <img src={logo} alt="" className='header__logo' />
+            <div className="header__container">
 
-                    <div className="header__searchbar">
-                        <input className='searchbar__input' type="text" placeholder='Search something here' />
-                        <img className='searchbar__label' src={search} alt="" />
-                    </div>
-                </>
+                <img src={logo} alt="" className='header__logo' />
+
+                <div className="header__searchbar">
+                    <input className='searchbar__input' type="text" placeholder='Search something here' />
+                    <img className='searchbar__label' src={search} alt="" />
+                </div>
+
 
                 <div className="header__circles">
                     <button className='header__favorites header__button'><img src={heart} alt="" /></button>
