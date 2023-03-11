@@ -75,3 +75,12 @@
     letter-spacing: -0.02em;
     color: #1A202C;
 }
+
+
+
+@media (max-width: 768px) {
+    .footer__container {
+        background: #F6F7F9;
+    }
+
+}
